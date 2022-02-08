@@ -1,0 +1,28 @@
+
+# compiled output
+/dist
+
+# nodejs dependencies
+node_modules
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+*.code-workspace
+
+# Environment variables file
+.env
+
+# TouchDesigner Backups
+Backup/
+
+# Python virtualenv
+venv
+
+# pyenv python version
+.python-version
+__pycache__
