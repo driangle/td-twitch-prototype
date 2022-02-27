@@ -6,10 +6,8 @@ def clamp(value,min_val=-1, max_val=1):
 
 op_table_user_state = op('table_user_state')
 users = {}
-DEBUG = True
-# TODO parameterize ADMIN_USER
+DEBUG = False
 # TODO parameterize MAX_USER_COUNT
-ADMIN_USER = 'selfloop'
 MAX_USER_COUNT = 1000
 
 def log_debug(message):
